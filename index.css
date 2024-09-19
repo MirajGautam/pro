@@ -4,6 +4,12 @@
     font-family:  'Arial Narrow Bold';
     color:white;
 }
+#logo{
+    pointer-events: none;
+}
+.header ul li:first-child{
+    pointer-events: none;
+}
 html{
     scroll-behavior: smooth;
 }
